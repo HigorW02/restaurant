@@ -4,10 +4,11 @@ import {
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { supabase } from "../../Bruno/app-delivery/src/lib/supabase";
+import { supabase } from "../app-delivery-main/src/lib/supabase";
 
 const Stack = createStackNavigator();
 
+// teste
 const products = [
   { id: '1', name: 'Coxinha', price: 5, image: 'https://static.itdg.com.br/images/auto-auto/52b96f7095b56f027799bbe66dfd9532/coxinha-crocante.jpg' },
   { id: '2', name: 'Batatinha Frita', price: 7, image: 'https://img.cdndsgni.com/preview/11098398.jpg' },
@@ -16,6 +17,7 @@ const products = [
 
 function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
+  console.log("uhu")
   const [password, setPassword] = useState('');
 
   async function handleLogin() {

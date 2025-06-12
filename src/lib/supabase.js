@@ -4,6 +4,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { createClient, processLock } from '@supabase/supabase-js'
 import { anonKey, supaUrl } from '../../Constantes/supabase'
 
+// commit coment
+
 const supabaseUrl = supaUrl;
 const supabaseAnonKey = anonKey;
 
