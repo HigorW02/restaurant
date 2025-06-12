@@ -1,0 +1,2 @@
+export const supaUrl = "https://exivoorzormovdpwcuto.supabase.co";
+export const anonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV4aXZvb3J6b3Jtb3ZkcHdjdXRvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk2ODMyNzIsImV4cCI6MjA2NTI1OTI3Mn0.YnjG-qAlBxR5kTE-swM63OHRD38I3xz4V4LbTLzpTFo"

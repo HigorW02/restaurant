@@ -1,0 +1,53 @@
+{
+  "name": "app-delivery",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-navigation/native": "^7.1.10",
+    "@react-navigation/stack": "^7.3.3",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "@supabase/supabase-js": "^2.50.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "expo": "~53.0.9",
+    "expo-status-bar": "~2.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-reanimated": "^3.18.0",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Bruno-Security/app-delivery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dev-Bruno-Security/app-delivery/issues"
+  },
+  "homepage": "https://github.com/Dev-Bruno-Security/app-delivery#readme"
+}
